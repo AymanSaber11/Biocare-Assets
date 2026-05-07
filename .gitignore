@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+eThumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Build artifacts
+*.tsbuildinfo
+
+# Upload directory
+/uploads
+/backend/uploads
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Misc
+*.log
+.cache/
+.parcel-cache
+.next
+out
